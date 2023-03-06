@@ -1,0 +1,371 @@
+@font-face {
+  font-family: "Roboto-Black";
+  src: url("/fonts/Roboto-Black.eot");
+  src: url("/fonts/Roboto-Black.eot?#iefix") format("embedded-opentype"), url("/fonts/Roboto-Black.woff2") format("woff2"), url("/fonts/Roboto-Black.woff") format("woff"), url("/fonts/Roboto-Black.ttf") format("truetype"), url("/fonts/Roboto-Black.svg#Roboto-Black") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("/fonts/Roboto-Bold.eot");
+  src: url("/fonts/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/Roboto-Bold.woff2") format("woff2"), url("/fonts/Roboto-Bold.woff") format("woff"), url("/fonts/Roboto-Bold.ttf") format("truetype"), url("/fonts/Roboto-Bold.svg#Roboto-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("/fonts/Roboto-Regular.eot");
+  src: url("/fonts/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("/fonts/Roboto-Regular.woff2") format("woff2"), url("/fonts/Roboto-Regular.woff") format("woff"), url("/fonts/Roboto-Regular.ttf") format("truetype"), url("/fonts/Roboto-Regular.svg#Roboto-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.roboto-regular {
+  font-family: "Roboto-Regular";
+}
+
+.roboto-bold {
+  font-family: "Roboto-Bold";
+}
+
+.roboto-black {
+  font-family: "Roboto-Black";
+}
+
+.light-green {
+  color: #8db48e !important;
+}
+
+.text-dark-green {
+  color: #4d724e;
+}
+
+.font-b7 {
+  font-size: 0.7rem;
+}
+
+.font-b9 {
+  font-size: 0.9rem;
+}
+
+.font-xs {
+  font-size: 1rem;
+}
+
+.font-s {
+  font-size: 1.1rem;
+}
+
+.font-sm {
+  font-size: 1.2rem;
+}
+
+.font-smx {
+  font-size: 1.3rem;
+}
+
+.font-smd {
+  font-size: 1.4rem;
+}
+
+.font-lgsm {
+  font-size: 1.6rem;
+}
+
+.font-md {
+  font-size: 1.8rem;
+}
+
+.font-mmd {
+  font-size: 2.1rem;
+}
+
+.font-lmd {
+  font-size: 2.4rem;
+}
+
+.font-mmds {
+  font-size: 2.3rem;
+}
+
+.font-xlmd {
+  font-size: 2.8rem;
+}
+
+.font-xxlmd {
+  font-size: 3rem;
+}
+
+.font-slg {
+  font-size: 3.6rem;
+}
+
+.font-smlg {
+  font-size: 3.8rem;
+}
+
+.font-mlg {
+  font-size: 4rem;
+}
+
+.font-llg {
+  font-size: 4.6rem;
+}
+
+.font-lg {
+  font-size: 6rem;
+}
+
+.font-xlg {
+  font-size: 7.2rem;
+}
+
+.size-150 {
+  width: 150px;
+}
+
+.mx-lg-7 {
+  margin-left: 7rem !important;
+  margin-right: 7rem !important;
+}
+
+@media screen and (max-width: 1181px) {
+  .font-md {
+    font-size: 1.7rem;
+  }
+
+  .font-mmd {
+    font-size: 2rem;
+  }
+
+  .font-lmd {
+    font-size: 2.3rem;
+  }
+
+  .font-xlmd {
+    font-size: 2.2rem;
+  }
+
+  .font-xxlmd {
+    font-size: 2.9rem;
+  }
+
+  .font-slg {
+    font-size: 3.2rem;
+  }
+
+  .font-smlg {
+    font-size: 3.5rem;
+  }
+
+  .font-mlg {
+    font-size: 3.6rem;
+  }
+
+  .font-llg {
+    font-size: 4.4rem;
+  }
+
+  .font-lg {
+    font-size: 5.4rem;
+  }
+
+  .font-xlg {
+    font-size: 6.6rem;
+  }
+
+  .font-md {
+    font-size: 1.5rem;
+  }
+
+  .font-mmds {
+    font-size: 1.8rem;
+  }
+
+  .font-b9 {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .font-slg {
+    font-size: 3rem;
+  }
+
+  .font-smlg {
+    font-size: 3.2rem;
+  }
+
+  .font-mlg {
+    font-size: 3.3rem;
+  }
+
+  .font-llg {
+    font-size: 4rem;
+  }
+
+  .font-lg {
+    font-size: 5rem;
+  }
+
+  .font-xlg {
+    font-size: 6rem;
+  }
+
+  .font-b9 {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 820px) {
+  .font-xlmd {
+    font-size: 2.4rem;
+  }
+
+  .font-b9 {
+    font-size: 0.7rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .font-xlg {
+    font-size: 5.6rem;
+  }
+}
+@media screen and (max-width: 640px) {
+  .font-b9 {
+    font-size: 0.8rem;
+  }
+
+  .font-xs {
+    font-size: 0.9rem;
+  }
+
+  .font-sm {
+    font-size: 1.1rem;
+  }
+
+  .font-smx {
+    font-size: 1.2rem;
+  }
+
+  .font-smd {
+    font-size: 1.3rem;
+  }
+
+  .font-lgsm {
+    font-size: 1.3rem;
+  }
+
+  .font-slg {
+    font-size: 2.8rem;
+  }
+
+  .font-smlg {
+    font-size: 2.9rem;
+  }
+
+  .font-mlg {
+    font-size: 3rem;
+  }
+
+  .font-llg {
+    font-size: 3.5rem;
+  }
+
+  .font-lg {
+    font-size: 4.4rem;
+  }
+
+  .font-xlg {
+    font-size: 5.4rem;
+  }
+
+  .font-md {
+    font-size: 1.6rem;
+  }
+
+  .font-mmd {
+    font-size: 1.7rem;
+  }
+
+  .font-lmd {
+    font-size: 2rem;
+  }
+
+  .font-xlmd {
+    font-size: 2.4rem;
+  }
+
+  .font-xxlmd {
+    font-size: 2.6rem;
+  }
+
+  .font-mmds {
+    font-size: 2rem;
+  }
+}
+html,
+body {
+  background-image: linear-gradient(90deg, #8db48e 50%, white 50%);
+}
+
+div.scrollmenu {
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.plate {
+  position: absolute;
+  width: 600px;
+  bottom: 0;
+}
+
+.plate-tommato {
+  width: 300px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.plate-lemon {
+  width: 230px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+@media screen and (max-width: 680px) {
+  html,
+body {
+    background-image: url(/images/veggi.png);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    bottom: 0;
+  }
+
+  nav {
+    background-color: #8db48e;
+  }
+
+  .plate {
+    display: none;
+  }
+
+  .plate-tommato {
+    display: none;
+  }
+
+  .plate-lemon {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=app.css.map */
